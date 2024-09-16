@@ -13,7 +13,6 @@ public class WikiOnboardingFourthScreen {
     private static final SelenideElement image = $(id("org.wikipedia.alpha:id/imageViewCentered")),
             primaryText = $(id("org.wikipedia.alpha:id/primaryTextView")),
             secondaryText = $(id("org.wikipedia.alpha:id/secondaryTextView")),
-            forwardBtn = $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")),
             doneBtn = $(id("org.wikipedia.alpha:id/fragment_onboarding_done_button"));
 
     @Step("Проверяем, что изображение отображается на экране четвертой страницы")

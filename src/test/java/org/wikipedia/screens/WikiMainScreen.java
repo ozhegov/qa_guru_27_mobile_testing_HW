@@ -10,7 +10,7 @@ import static io.appium.java_client.AppiumBy.id;
 
 public class WikiMainScreen {
 
-    private static final SelenideElement wikiLogo = $(id("org.wikipedia.alpha:id/main_toolbar_wordmark")),
+    private final SelenideElement wikiLogo = $(id("org.wikipedia.alpha:id/main_toolbar_wordmark")),
             searchInput = $(accessibilityId("Search Wikipedia"));
 
 

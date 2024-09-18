@@ -10,7 +10,7 @@ import static io.appium.java_client.AppiumBy.id;
 
 public class WikiOnboardingThirdScreen {
 
-    private static final SelenideElement image = $(id("org.wikipedia.alpha:id/imageViewCentered")),
+    private final SelenideElement image = $(id("org.wikipedia.alpha:id/imageViewCentered")),
             primaryText = $(id("org.wikipedia.alpha:id/primaryTextView")),
             secondaryText = $(id("org.wikipedia.alpha:id/secondaryTextView")),
             forwardBtn = $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button"));
